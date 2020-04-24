@@ -20,6 +20,7 @@ After Reactive-Native-Map is settled, I exercised the [Covid-19 Api](https://cov
 <p align="center">
 < img width="600" height="375" src="./step4.jpg">
 </p >
+![Screenshot](step4.jpg)
 
 ## Step 5
 I decide to use the Callout function in the [react_native_maps](https://github.com/react-native-community/react-native-maps), because it is a very simple way to show information on the maps. Each country will have a pin and the users can click the pin to show number of the newly confirmed cases and total confirmed cases. And we also put the world summary in the warning box.
