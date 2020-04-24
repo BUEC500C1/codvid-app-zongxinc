@@ -11,9 +11,15 @@ In step 3, with credit to this open source [react-native-map](https://github.com
 3. A valid Google Map Api key is required to use google map.
 
 There are several use cases inside example app. The feature `Custom Callout` can put markers for given geocoordinators on the map, with short text description bubbles. This is the base of Covid-19 Map. (Picture 1)
+<p align="center">
+< img width="600" height="375" src="./step3.jpg">
+</p >
 
 ## Step 4
 After Reactive-Native-Map is settled, I exercised the [Covid-19 Api](https://covid19api.com) in step 4. The [summary](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#00030720-fae3-4c72-8aea-ad01ba17adf8) api can fetch daily-updated data for every country and region with name or country code. However, there is no geocoordinate information aligned to the country. So I got to google api website and downloaded a Country Geocoordinates CSV file and transferred to Json format. Then fetch covid-19 api once and store data in variable `this.state.data`, which can be succesfully printed on console warning. (Picture 2)
+<p align="center">
+< img width="600" height="375" src="./step4.jpg">
+</p >
 
 ## Step 5
 I decide to use the Callout function in the [react_native_maps](https://github.com/react-native-community/react-native-maps), because it is a very simple way to show information on the maps. Each country will have a pin and the users can click the pin to show number of the newly confirmed cases and total confirmed cases. And we also put the world summary in the warning box.
