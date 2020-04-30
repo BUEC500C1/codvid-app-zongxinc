@@ -1,6 +1,6 @@
 # Ccovid-19 Map Application
 
-As HomeWork7 of EC500, this project takes around one month and have been done with all 5 Steps. Users can run this app on any iOS device over iOS 13.0 after server started. To test the program you may clone the whole project and get in to example, then run `$npm i` and `$npm start`.  When you see the  server started, for Android device please run `$npm npm run run:android` and `$nmp run build:ios` + `$npm run run:ios` for iOS device. Please make sure your simulator is properly installed. If you choose to run on your simulator, it will automatically started and open the app. The following documentation uses iOS device simulator for instance. Feel free to try and make feedbacks :)
+As HomeWork7 of EC500, this project takes around one month and have been done with all 5 Steps. Users can run this app on any iOS device over iOS 13.0 after server started. To test the program you may clone the whole project and get in to example, then run `$npm i` and `$npm start`.  When you see the  server started, for Android device please run `$npm npm run run:android` and `$npm run build:ios` + `$npm run run:ios` for iOS device. Please make sure your simulator is properly installed. If you choose to run on your simulator, it will automatically started and open the app. The following documentation uses iOS device simulator for instance. Feel free to try and make feedbacks :)
 ## Step 3
 Because first 2 steps are fundamental tutorials for React-Native examples, we would rather not mention them again. You may visit [here](https://reactnative.dev/docs/environment-setup) for details.
 
@@ -22,3 +22,5 @@ After Reactive-Native-Map is settled, I exercised the [Covid-19 Api](https://cov
 I decide to use the Callout function in the [react_native_maps](https://github.com/react-native-community/react-native-maps), because it is a very simple way to show information on the maps. Each country will have a pin and the users can click the pin to show number of the newly confirmed cases and total confirmed cases. And we also put the world summary in the warning box.
 
 The covid-19 api cannot provide countries' coordinates and covid-19 information at the same time Therefore to minimize the number of times we read from api, I use a Json file with country code and coordinates of each country can import it as customData. Then by using a double for loop, I can find the coordinates for each country and uses the json we get from the covid-19 api to write information to each coordinates.
+![Final1](Final1.png)
+![Final2](Final2.png)
